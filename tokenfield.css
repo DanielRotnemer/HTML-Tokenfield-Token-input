@@ -1,0 +1,80 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100%;
+}
+.tokenfield-wrapper {
+    position: relative;
+    display: block;
+    width: 800px;
+    border: 1px solid #454545;
+    border-radius: 10px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tokenfield {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: calc(100% - 15px);
+    font-size: 0;
+    padding: 15px;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.token-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 5px;    
+    background: #c4c4c4;
+    border: 1px solid #575757;
+    border-radius: 3px;
+    max-width: calc(100% - 12px);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.token-wrapper > svg {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.token {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;    
+    color: #454545;
+    font-family: 'proxima_novasemibold';
+    font-size: x-large;
+    overflow: hidden;
+    max-width: calc(100% - 25px);
+    line-break: anywhere;
+}
+.token-input {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 5px;
+    padding-left: 0;
+    overflow: hidden;
+    word-break: break-all;
+    max-width: calc(100% - 30px);
+    color: #454545;
+    font-family: 'proxima_novasemibold';
+    font-size: x-large;
+    outline: none;
+    min-width: 20px;
+    margin-top: 0;
+    margin-left: 0;
+}

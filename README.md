@@ -1,5 +1,5 @@
 # HTML-Tokenfield-Token-input
-In this code example i will walk you through on making your own HTML Token input from scratch step by step.
+In this code example i will walk you through on making your own HTML Token input step by step from scratch.
 
 If you find this piece of code useful please give it a thumbs up.
 
